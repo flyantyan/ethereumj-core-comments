@@ -115,6 +115,7 @@ public class NodeTable {
         return id < 0 ? 0 : id;
     }
 
+
     public synchronized int getNodesCount() {
         return nodes.size();
     }
